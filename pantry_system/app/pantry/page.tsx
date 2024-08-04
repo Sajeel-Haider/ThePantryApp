@@ -170,14 +170,6 @@ const Pantry: React.FC = () => {
           currentTitle={currentItem.title}
         />
       )}
-      <Button
-        variant="contained"
-        color="secondary"
-        onClick={fetchPantryItems}
-        sx={{ marginTop: "1rem" }}
-      >
-        <Typography variant="body1">Save Changes</Typography>
-      </Button>
     </Container>
   );
 };
